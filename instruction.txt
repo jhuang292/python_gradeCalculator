@@ -1,0 +1,26 @@
+The program prompt a user a command. The commands:
+    1. Add a new student
+           1. Get the student name, exam 1 score, exam 2 score, and exam 3 score.
+           2. [OPTIONAL] Do some checking to make sure these things are valid, print error if           
+                         *Name must not already be in gradebook
+                         *Score must be a value between 0 and 100
+           3. If valid, add the name and scores to the gradebook
+    2. Modify an existing student's score
+           1. Get the student's name,exam number to modify (1,2, or 3) and new score.
+           2. [OPTIONAL] Do some checking to make sure these things are valid, print error if
+                          *Name must be in gradebook.
+                          *Exam number must be 1,2, or 3.
+                          *Score must be between 0 and 100.
+           3. If valid, appropriately change the information stored in the gradebook.
+    3. Retrieve all entries, calculate letter grade, and print
+           1. Calculate the mean and standard deviation of the class population.
+           2. Compare each student's exam score sum to the mean and standard deviation to assign a letter grade for that student.
+                          *If sum of student's scores is greater than or equal to the mean plus one standard deviation, the grade should be A.
+                          *Otherwise, if the sum is greater than or equal to the mean, the grade should be B.
+                          *Otherwise, if the sum is greater than or equal to the mean, the mean minus one standard deviation, the grade should be C.
+                          *Otherwise, the grade should be F(There are no Ds)
+           3. Print the following information (follow sample run):
+                          *Mean
+                          *Standard Deviation
+                          *For each student: name, exam 1 score, exam 2 score, exam 3 score, letter grade.
+    4. Quit the program 
